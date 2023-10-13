@@ -1,0 +1,69 @@
+# .gitignore for SOLIDWORKS Projects
+
+# SOLIDWORKS Temporary Files
+*.slddrw~
+*.sldprt~
+*.sldasm~
+
+# SOLIDWORKS Backup Files
+*backup*
+
+# SOLIDWORKS Auto-recover Files
+*.sldbak
+*.SWAutoSave
+
+# Simulation and Analysis Files
+*.CWR
+*.SIM
+
+# SOLIDWORKS Electrical Files
+*.tewzip
+
+# eDrawings Files
+*.eprt
+*.easm
+*.edrw
+
+# Photoview 360 Files and folders
+*.p2m
+360Renderings/
+
+# SOLIDWORKS PCB Files
+*.swp
+
+# SOLIDWORKS PDM Vault Files
+$$_PDM_Files/
+$$_PDM_LockedFiles/
+
+# Windows Thumbnail cache
+Thumbs.db
+
+# macOS system files
+.DS_Store
+
+# Log files
+*.log
+
+# BOM Files
+*.bom
+
+# Assembly Visualization Files
+*.csv
+
+# Other SOLIDWORKS Generated Files and Folders
+~$*
+*.swar
+*.swj
+*.swm
+*.sldbndt
+*.slddrt
+*.sldbomtbt
+*.swbsb
+*.cex
+*.auto
+*.swp
+*.ldb
+*.LDB
+*.ldb
+_converted
+.sldcrc
